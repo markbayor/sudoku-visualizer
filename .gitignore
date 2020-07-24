@@ -1,0 +1,4 @@
+node_modules
+.env
+TESTING.js
+dist
