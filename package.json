@@ -6,6 +6,7 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "enhanced-resolve": "^4.1.1",
+    "express": "^4.17.1",
     "react": "^16.13.1",
     "react-aws-s3": "^1.3.0",
     "react-dom": "^16.13.1",
@@ -23,6 +24,7 @@
     "@types/react-router-dom": "^5.1.4",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.3.0",
     "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.1.4",
@@ -33,8 +35,8 @@
     "webpack-dev-server": "^3.10.3"
   },
   "scripts": {
-    "build": "webpack",
-    "start:dev": "webpack-dev-server --mode development --open --host 0.0.0.0",
-    "start": "webpack-dev-server --mode development --hot --open --host 0.0.0.0"
+    "build": "webpack --mode production",
+    "start:dev": "webpack-dev-server",
+    "start:dev2": "webpack-dev-server --mode development --hot --open --host 0.0.0.0"
   }
 }

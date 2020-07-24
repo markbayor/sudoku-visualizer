@@ -1,4 +1,5 @@
 const { resolve } = require("path");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = () => {
   return {
@@ -39,5 +40,10 @@ module.exports = () => {
       port: 9000,
       publicPath: "/dist",
     },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: resolve('./index.html'),
+      }),
+    ]
   };
 };
