@@ -49,7 +49,7 @@ const App = () => {
               <Navbar />
               <Switch>
                 {/* <Route exact path='/' component={HomePage} /> */}
-                <Route exact path='/' component={GamePage} />
+                <Route path='/' component={GamePage} />
                 {/* <Route exact path='/auth' component={AuthPage} /> */}
               </Switch>
             </SudokusContext.Provider>
