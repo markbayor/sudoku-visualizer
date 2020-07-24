@@ -29,10 +29,10 @@ module.exports = () => {
       path: resolve(__dirname, "dist"),
       filename: "bundle.js",
     },
-    externals: {
-      react: "React",
-      "react-dom": "ReactDOM",
-    },
+    // externals: {
+    //   react: "React",
+    //   "react-dom": "ReactDOM",
+    // },
     devServer: {
       compress: true,
       historyApiFallback: true,
