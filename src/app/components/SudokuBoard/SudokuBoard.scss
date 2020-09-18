@@ -49,6 +49,11 @@
   -moz-box-shadow: 0px 6px 20px 4px rgba(0,0,0,0.18);
   box-shadow: 0px 6px 20px 4px rgba(0,0,0,0.18);
 
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    width: 60vw;
+  }
+
   button {
     max-width: 85px;
     margin-left: 5px;
@@ -60,6 +65,11 @@
   flex-direction: row;
   flex-wrap: wrap;
   width: 40vw;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    width: 50vw;
+  }
 }
 
 .number-selector-cell {
@@ -218,6 +228,11 @@
   justify-content: space-around;
   align-items: center;
   width: 30vw;
+
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    width: 60vw;
+  }
 
   button {
     padding: 15px 15px;
