@@ -2,7 +2,7 @@ Sudoku-Visualizer is live at https://www.markbayor-sudokuvisualizer.com/ .
 
 If you want to work off of this base to create your own Sudoku Visualizer, feel free to fork this project or to just copy-paste code.
 
-To run this project you first need to head to the project directory and install the dependecies by running  :
+To run this project you first need to head to the project directory and install the dependencies by running  :
 
 ### `npm install`
 
