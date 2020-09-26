@@ -4,12 +4,12 @@ If you want to work off of this base to create your own Sudoku Visualizer, feel 
 
 To run this project you first need to head to the project directory and install the dependencies by running  :
 
-### `npm install`
+### `yarn`
 
 This will install all the dependencies related to this project under  `sudoku-visualizer\node_modules`.
 
 
-### `npm run-script start:dev`
+### `yarn start:dev`
 
 Runs the app in the development mode.
 Open http://localhost:9000 to view it in the browser.
